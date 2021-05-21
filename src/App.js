@@ -120,7 +120,7 @@ class App extends Component {
             <Route exact path="/login" component={Login} />
             <Route exact path="/register" component={Register} />
             <Route exact path="/profile" component={Profile} />
-            <Route path="/user" component={TutorialsList} />
+            <Route path="/user" component={AddTutorial} />
             <Route path="/mod" component={AddTutorial} />
             <Route path="/admin" component={BoardAdmin} />
           </Switch>
